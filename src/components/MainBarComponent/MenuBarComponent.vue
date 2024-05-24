@@ -44,7 +44,7 @@ export default {
   border: none;
   display: flex;
   padding: 0 15% 0 36.75%; /* TO-DO */
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
 }
 
 .navbar-link-container {

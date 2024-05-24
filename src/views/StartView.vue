@@ -11,7 +11,7 @@
 
     <div v-if="showPopup" class="popup">
       <div class="popup-content">
-    <Button type="button" label="Cerrar" icon="pi pi-times" @click="hidePopup" />
+        <Button type="button" label="Cerrar" icon="pi pi-times" @click="hidePopup" class="align-right" />&nbsp;
     <div class="popup-inner">
       <div class="route-image">
         <img :src="hospitalRouteImage" alt="Imagen de la ruta al hospital">
@@ -130,6 +130,9 @@ img {
   height: auto;
   
 }
+.align-right {
+  align-self: flex-end;
+}
 
 .route-image {
   flex: 2;
@@ -166,6 +169,14 @@ h2 {
   margin-bottom: 1rem;
   color: #000;
   padding: 0 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #000;
+  padding: 0 1rem;
+  text-align: center
 }
 
 
